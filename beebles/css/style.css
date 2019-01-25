@@ -1,0 +1,41 @@
+body { 
+    background: #ff1965 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.63);
+	font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 11em; 
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 6em;
+}
+
+.social-media {
+	font-size: 3em;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s;
+    border-radius: 5px;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.social-media:hover,
+.social-media:active {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.63);
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.social-media:visited {
+    color: rgba(0, 0, 0, 0.63)
+}
